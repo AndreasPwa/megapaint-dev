@@ -166,7 +166,7 @@ class ProductList extends React.Component {
     this.state.promoProduct ? url = url + "&promo=1" : null;
     this.state.newProduct ? url = url + "&new=1" : null;
     this.state.bestSellerProduct ? url = url + "&bestseller=1" : null;
-    console.log(url);
+    // console.log(url);
 
     fetch(url).then((response) => response.json())
       .then((responseJson) => {

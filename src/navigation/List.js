@@ -18,6 +18,8 @@ import Products from "../tabs/Products";
 import ProductDetail from "../tabs/ProductDetail";
 import Cart from "../tabs/Cart";
 import SaveCart from "../tabs/SaveCart";
+import Checkout from "../tabs/Checkout";
+import OrderHistory from "../tabs/OrderHistory";
 import Suppliers from "../tabs/Suppliers";
 import Brands from "../tabs/Brands";
 
@@ -68,6 +70,8 @@ function MyDrawer() {
       <Drawer.Screen name="ProductDetail" component={ProductDetail} />
       <Drawer.Screen name="Cart" component={Cart} />
       <Drawer.Screen name="SaveCart" component={SaveCart} />
+      <Drawer.Screen name="Checkout" component={Checkout} />
+      <Drawer.Screen name="OrderHistory" component={OrderHistory} />
       <Drawer.Screen name="Suppliers" component={Suppliers} />
       <Drawer.Screen name="Brands" component={Brands} />
     </Drawer.Navigator>

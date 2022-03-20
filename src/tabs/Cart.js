@@ -415,8 +415,8 @@ class CartList extends React.Component {
               <View style={styles.rightText}>
                 <Text
                   style={styles.titleText}
-                // numberOfLines={2}
-                // ellipsizeMode="middle"
+                  numberOfLines={2}
+                  ellipsizeMode="tail"
                 >
                   {item.product_name}{item.display_name ? " (" + item.display_name + ")" : null}
                 </Text>

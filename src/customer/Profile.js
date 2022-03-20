@@ -295,7 +295,7 @@ export default function StudentProfile({ route, navigation }) {
                     </Text>
                   ) : name.length > 100 ? (
                     <Text style={styles.errorTextStyle}>
-                      {error.maximum_length_100_error}
+                      Name {error.maximum_length_100_error}
                     </Text>
                   ) : null
                 ) : null}

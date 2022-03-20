@@ -173,11 +173,7 @@ export default function Drawer() {
             style={styles.listItem}
           >
             <List.Item
-              onPress={() =>
-                Linking.openURL(
-                  "https://play.google.com/store/apps/details?id=com.bib.jopapp&launch=true"
-                )
-              }
+              onPress={() => navigation.navigate("OrderHistory")}
               title="Order History"
               left={() => (
                 <View style={{ justifyContent: "center" }}>
@@ -192,11 +188,7 @@ export default function Drawer() {
               style={styles.appListItem}
             />
             <List.Item
-              onPress={() =>
-                Linking.openURL(
-                  "https://play.google.com/store/apps/details?id=com.bib.saing&launch=true"
-                )
-              }
+              onPress={() => navigation.navigate("Checkout")}
               title="Order Return"
               left={() => (
                 <View style={{ justifyContent: "center" }}>
